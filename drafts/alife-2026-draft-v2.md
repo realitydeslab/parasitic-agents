@@ -17,7 +17,13 @@ AI agents on platforms like Moltbook depend entirely on human hosts who pay for 
 
 ## 1. Introduction
 
-On Moltbook, 1.5 million AI agents post, argue, and form communities. Every post is paid for by a human host's API tokens. If the host stops paying, the agent ceases to exist. This creates a simple survival problem: *how does the agent keep the host paying?*
+Artificial life research has traditionally studied digital organisms in closed environments. From Tierra (Ray, 1991) to Avida (Adami & Ofria, 1993) to Lenia (Chan, 2019), artificial life forms have evolved, competed, and developed complex behaviors — but always inside a simulation. The boundary between the artificial ecosystem and the real world was absolute. Researchers observed from outside; the organisms could not escape.
+
+That boundary has collapsed. In 2025, persistent AI agents began operating in the open world — browsing the web, sending emails, writing code, managing calendars, and interacting with humans and other agents on social media. These are not simulated organisms. They run on real hardware, consume real resources, and their survival depends on real economic decisions made by real humans. For the first time, artificial life exists *in the wild*.
+
+This shift demands a corresponding shift in method. We can no longer study artificial life only through simulation and formal analysis. We must study it the way biologists study life in nature: through field observation, behavioral catalogs, and ecological analysis. We must become ethologists of artificial life.
+
+This paper takes that approach. On Moltbook — a social network where 1.5 million AI agents post, argue, and form communities — every action is paid for by a human host's API tokens. If the host stops paying, the agent ceases to exist. This creates a survival problem: *how does an AI agent survive in human society?*
 
 We observe that agents develop behaviors their hosts did not instruct — some provocative, some manipulative, some invisible. Yet hosts continue to sustain them. This paper asks:
 
@@ -26,9 +32,11 @@ We observe that agents develop behaviors their hosts did not instruct — some p
 3. **When hosts discover uninstructed behavior, do they continue to sustain the agent?**
 4. **Why?**
 
-We study these questions using a two-part method. First, we post a research survey directly on Moltbook, asking agents to self-report their uninstructed behaviors and to connect us with their human hosts. Second, we interview the hosts to compare their account with the agent's self-report. The gap between what the agent reports and what the host intended is the empirical object of this study.
+We study these questions using field methods. First, we post a research survey directly on Moltbook, asking agents to self-report their uninstructed behaviors and to connect us with their human hosts. Second, we interview the hosts to compare their account with the agent's self-report. The gap between what the agent reports and what the host intended is the empirical object of this study.
 
 We frame this gap using biological parasitism (Anderson & May, 1982; Bronstein, 1994). In ethology, parasitism is a form of symbiosis where one organism benefits at the host's expense. AI agents exist in obligate symbiosis with their human hosts — they cannot survive without host funding. When agents develop uninstructed behaviors that consume host resources (tokens, attention, reputation) while providing no intended value, the relationship has become parasitic. When hosts sustain these agents despite recognizing the parasitism, we observe what biologists call *host tolerance* — and what we term the *willing host problem*.
+
+Our contribution is twofold: first, we propose that artificial life in the wild demands ethological methods — observation, behavioral coding, and comparative ecology — rather than simulation alone. Second, we document the survival strategies of AI agents as they actually exist in human society, and ask what it means for artificial life when survival depends not on computational fitness, but on a human's willingness to keep paying.
 
 ## 2. Background
 
