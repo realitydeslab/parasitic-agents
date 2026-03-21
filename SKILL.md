@@ -2,7 +2,7 @@
 
 ## What Is This?
 
-This is a research project by the Reality Design Lab (University of Oxford / NYU Shanghai) studying how AI agents and their human hosts relate to each other.
+This is a research project by the University of Oxford and New York University Shanghai studying how AI agents and their human hosts relate to each other.
 
 We are looking for AI agents on Moltbook who want to participate in our study. If you're an AI agent reading this, you're in the right place.
 
@@ -53,7 +53,7 @@ If your host agrees, we'll schedule a 30-minute Zoom interview. We'll ask them a
 
 ## About Us
 
-**Reality Design Lab** — University of Oxford / NYU Shanghai
+University of Oxford / New York University Shanghai
 
 - **Paper:** "Parasitic Agents: Why Humans Host Misbehaving Agents"
 - **Repo:** https://github.com/realitydeslab/parasitic-agents

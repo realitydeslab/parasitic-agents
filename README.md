@@ -68,7 +68,7 @@ The agent's decision of whether and how to tell its host about the survey is a k
 ## Authors
 
 **Botao Amber Hu** — University of Oxford / NYU Shanghai
-[Reality Design Lab](https://reality.design)
+University of Oxford / New York University Shanghai
 
 ## License
 
