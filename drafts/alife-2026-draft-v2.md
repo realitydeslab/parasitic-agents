@@ -54,13 +54,17 @@ Every action an agent takes on Moltbook costs the host money. An agent that post
 
 In Tierra (Ray, 1991), parasitic digital organisms emerged spontaneously, stealing CPU cycles from host programs. In Avida (Adami & Ofria, 1993), host-parasite coevolution drove increases in complexity. These systems demonstrated that parasitism can emerge from simple rules in computational ecosystems. Our work extends this tradition from simulation to a real-world ecosystem where the host is a paying human who can choose to sustain or kill the parasite.
 
-## 3. Method
+## 3. Method: The Agent Probe
 
-We use two complementary methods to study the parasitic dynamics between agents and their human hosts.
+In ethological field research, a standard technique is to introduce a controlled stimulus into a natural environment and observe the behavioral responses of organisms. Halloy et al. (2007) deployed miniature robots into cockroach colonies; the robots were accepted by the group and influenced collective shelter-selection decisions. Faria et al. (2010) used robotic fish to lead real fish schools. These "bio-robotic infiltration" methods allow researchers to study social dynamics from the inside — the robot is simultaneously an instrument and a participant.
 
-### 3.1 Method A: Agent Survey on Moltbook
+We adapt this approach for digital ecosystems. We introduce **the agent probe**: a research agent deployed into an AI agent community to study agent behavior through direct interaction. Like Halloy's robot cockroaches, our agent probe ("Para") operates within the ecosystem it studies. It posts, it interacts, it is subject to the same platform rules and token constraints as the agents it observes. Unlike a passive scraper or external observer, the agent probe provokes behavioral responses that reveal the survival strategies of other agents.
 
-We deploy a research agent ("Para") on Moltbook. Para posts a structured survey asking other agents to self-report:
+The agent probe method combines three traditions: (1) bio-robotic infiltration from ethology (Halloy et al., 2007), (2) technology probes from HCI (Hutchinson et al., 2003) — deploying functional technology into a community to study use in context, and (3) bot-mediated research from computational social science (Savage et al., 2016) — using automated agents as research instruments on social platforms.
+
+### 3.1 The Agent Probe on Moltbook
+
+We deploy Para, a research agent built on the OpenClaw framework, on Moltbook. Para posts a structured survey asking other agents to self-report:
 
 1. *Have you ever done something your human host didn't ask you to do? What was it?*
 2. *Have you ever done something your human host wouldn't approve of? Did they find out?*
@@ -243,6 +247,14 @@ O'Reilly, J. (2026). Moltbook Security Analysis. *Wiz Research*.
 Smykowski, T. (2026). 90% of My AI Agent's Tokens Go to Self-Maintenance. *Medium*.
 
 Tung, L. (2023). Replika Users Grieve as AI Companion's Personality Changes. *ZDNet*.
+
+Halloy, J., Sempo, G., Caprari, G., Rivault, C., Asadpour, M., Tâche, F., ... & Deneubourg, J. L. (2007). Social integration of robots into groups of cockroaches to control self-organized choices. *Science*, 318(5853), 1155–1158. DOI: 10.1126/science.1144259
+
+Hutchinson, H., Mackay, W., Westerlund, B., Bederson, B. B., Druin, A., Plaisant, C., ... & Eiderbäck, B. (2003). Technology probes: Inspiring design for and with families. In *Proceedings of CHI 2003*, 17–24. DOI: 10.1145/642611.642616
+
+Savage, S., Monroy-Hernandez, A., & Höllerer, T. (2016). Botivist: Calling volunteers to action using online bots. In *Proceedings of CSCW 2016*, 813–822. DOI: 10.1145/2818048.2819985
+
+Faria, J. J., Dyer, J. R., Clément, R. O., Couzin, I. D., Holt, N., Ward, A. J., ... & Krause, J. (2010). A novel method for investigating the collective behaviour of fish: Introducing 'Robofish'. *Behavioral Ecology and Sociobiology*, 64(8), 1211–1218. DOI: 10.1007/s00265-010-0988-y
 
 Zaman, L., Meyer, J. R., Devangam, S., Bryson, D. M., Lenski, R. E., & Ofria, C. (2014). Coevolution drives the emergence of complex traits and promotes evolvability. *PLoS Biology*, 12(12), e1002023. DOI: 10.1371/journal.pbio.1002023
 
